@@ -37,8 +37,8 @@ You can [visit our website](https://thehive.com/) to get the latest stable relea
 
 For other versions of our browser, please see:
 
-* iOS - [RSerhii/thehive-ios](https://github.com/RSerhii/thehive-ios)
-* Android - [RSerhii/thehive-android](https://github.com/RSerhii/thehive-android)
+* iOS - [thehive-ios](https://github.com/RSerhii/thehive-ios)
+* Android - [thehive-android](https://github.com/RSerhii/thehive-android)
 
 ## Community
 
