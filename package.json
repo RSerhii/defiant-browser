@@ -1,7 +1,7 @@
 {
-  "name": "dissenter",
+  "name": "thehive",
   "version": "0.66.100",
-  "description": "Dissenter browser for macOS, Windows, Linux, and eventually Android",
+  "description": "The Hive browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "node ./scripts/audit.js",
     "cibuild": "node ./scripts/commands.js cibuild",
@@ -14,13 +14,13 @@
     "update_patches": "node ./scripts/commands.js update_patches",
     "apply_patches": "node ./scripts/sync.js --run_hooks",
     "start": "node ./scripts/commands.js start",
-    "network-audit": "node ./scripts/commands.js start --enable_dissenter_update --network_log --user_data_dir_name=brave-network-test",
+    "network-audit": "node ./scripts/commands.js start --enable_thehive_update --network_log --user_data_dir_name=brave-network-test",
     "push_l10n": "node ./scripts/commands.js push_l10n",
     "pull_l10n": "node ./scripts/commands.js pull_l10n",
     "chromium_rebase_l10n": "node ./scripts/commands.js chromium_rebase_l10n",
     "lint": "node ./scripts/commands.js lint",
     "test": "node ./scripts/commands.js test",
-    "test-security": "npm run audit_deps && node ./scripts/commands.js start --enable_dissenter_update --network_log --user_data_dir_name=brave-network-test"
+    "test-security": "npm run audit_deps && node ./scripts/commands.js start --enable_thehive_update --network_log --user_data_dir_name=brave-network-test"
   },
   "config": {
     "projects": {
@@ -44,7 +44,7 @@
         "dir": "src/brave",
         "branch": "66.99",
         "repository": {
-          "url": "https://github.com/gab-ai-inc/defiant-core.git"
+          "url": "https://github.com/RSerhii/thehive-core.git"
         }
       }
     },
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gab-ai-inc/defiant-browser.git"
+    "url": "git+https://github.com/RSerhii/thehive-browser.git"
   },
   "author": {
     "name": "Gab AI, Inc. <legal@gab.com>"
@@ -255,9 +255,9 @@
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/gab-ai-inc/defiant-browser/issues"
+    "url": "https://github.com/RSerhii/thehive-browser/issues"
   },
-  "homepage": "https://dissenter.com",
+  "homepage": "https://thehive.com",
   "dependencies": {
     "commander": "^2.9.0",
     "fs-extra": "^1.0.0"
