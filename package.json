@@ -42,7 +42,7 @@
       },
       "brave-core": {
         "dir": "src/brave",
-        "branch": "66.99",
+        "branch": "66.101",
         "repository": {
           "url": "https://github.com/RSerhii/thehive-core.git"
         }
