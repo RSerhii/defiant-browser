@@ -1,6 +1,6 @@
 {
   "name": "thehive",
-  "version": "0.66.100",
+  "version": "0.66.101",
   "description": "The Hive browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "node ./scripts/audit.js",
