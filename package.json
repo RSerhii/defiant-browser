@@ -1,7 +1,7 @@
 {
-  "name": "brave",
+  "name": "thehive",
   "version": "0.70.122",
-  "description": "Next generation Brave browser for macOS, Windows, Linux, and eventually Android",
+  "description": "The Hive browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "node ./scripts/audit.js",
     "cibuild": "node ./scripts/commands.js cibuild",
@@ -27,7 +27,7 @@
     "projects": {
       "chrome": {
         "dir": "src",
-        "tag": "78.0.3904.87",
+        "tag": "78.0.3904.50",
         "repository": {
           "url": "https://chromium.googlesource.com/chromium/src.git"
         },
@@ -43,9 +43,9 @@
       },
       "brave-core": {
         "dir": "src/brave",
-        "branch": "0.70.x",
+        "branch": "dissenter-70.x",
         "repository": {
-          "url": "https://github.com/brave/brave-core.git"
+          "url": "https://github.com/RSerhii/thehive-core.git"
         }
       }
     },
@@ -55,10 +55,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-browser.git"
+    "url": "git+https://github.com/RSerhii/thehive-browser.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "The Hive"
   },
   "contributors": [
     {
@@ -252,9 +252,9 @@
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/RSerhii/thehive-browser/issues"
   },
-  "homepage": "https://github.com/brave/brave-browser#readme",
+  "homepage": "https://identity.faith",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.9.0",
